@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["global.less"],"sourcesContent":["//定义公共变量\r\n@color_white:#fff;\r\n@color_blue:#00a7ff;\r\n@color_darkblue:#337ab7;\r\n@color_moreDarkBlue:#2e8ece;\r\n@color_gray:#999;\r\n@color_lightGray:#e8e8e8;\r\n"],"file":"../less/global.css"}

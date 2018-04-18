@@ -1,0 +1,1 @@
+{"version":3,"sources":["public.less"],"names":[],"mappings":"AACA;EACI,uBAAA;EACA,WAAA;EACA,gBAAA;;AAEJ;EACI,WAAA;EACA,YAAA","sourcesContent":["//定义公共样式\r\nul{\r\n    padding:0px !important;\r\n    margin:0px;\r\n    list-style: none;\r\n}\r\nbody{\r\n    margin:0px;\r\n    padding:0px;\r\n}\r\n"],"file":"../less/public.css"}

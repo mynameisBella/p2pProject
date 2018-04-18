@@ -1,0 +1,129 @@
+ul {
+  padding: 0px !important;
+  margin: 0px;
+  list-style: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-brand i {
+  font-size: 24px;
+}
+.navbar-brand {
+  line-height: 10px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #00a7ff;
+  text-decoration: underline;
+}
+.navbar:nth-of-type(1) {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+.navbar:nth-of-type(2) {
+  margin-bottom: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+  line-height: 80px;
+  padding: 0px 15px;
+  font-size: 16px;
+  text-align: center;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #f4f4f4;
+  color: #00a7ff;
+}
+.contactUsImg img {
+  width: 100px;
+}
+@media all and (max-width: 420px) {
+  .navbar-default .navbar-nav > li > a {
+    line-height: 40px;
+  }
+  .carousel-inner > .item > img {
+    height: 120px;
+  }
+  .table .borrowTitle,
+  .table .backType {
+    display: none;
+  }
+  .table > tbody > tr > td {
+    padding: 8px 3px;
+  }
+}
+.feature {
+  background: url(../../images/feature01.png) no-repeat 10px 0;
+  height: 80px;
+  margin: 20px 0px;
+  padding-left: 85px;
+}
+.feature h4 {
+  font-weight: bold;
+}
+.feature p {
+  color: #999;
+}
+.feature:nth-of-type(2) {
+  background: url(../../images/feature02.png) no-repeat 10px 0;
+}
+.feature:nth-of-type(3) {
+  background: url(../../images/feature03.png) no-repeat 10px 0;
+}
+.panel {
+  border-radius: 0px;
+  box-shadow: none;
+}
+.panel-title {
+  border-bottom: 1px solid #e8e8e8;
+}
+.panel-title .pull-left {
+  font-size: 24px;
+  color: #2e8ece;
+  font-weight: bold;
+  border-bottom: 3px solid #2e8ece;
+}
+.panel-title .pull-right a {
+  font-size: 14px;
+  position: relative;
+  bottom: -10px;
+  margin-right: 20px;
+}
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+.table > thead > tr > th {
+  color: #999;
+  padding-top: 20px;
+}
+.panel > .table:last-child > tbody:last-child > tr:last-child {
+  border-bottom: none;
+}
+.el-table tbody tr td {
+  font-size: 16px;
+}
+.panel-body {
+  margin-bottom: 30px;
+}
+.panel-body li {
+  clear: both;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #e8e8e8;
+}
+.panel-body li:first-child {
+  margin-top: 15px;
+}
+footer {
+  background-color: #e8e8e8;
+  padding: 30px 0px;
+  margin-top: ;
+}
+
+/*# sourceMappingURL=../maps/index.css.map */

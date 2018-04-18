@@ -1,0 +1,90 @@
+//引进公共样式
+@import url("public.less");
+@import url("header.less");
+
+//轮播图部分开始
+@media all and (max-width:420px){
+    .navbar-default .navbar-nav > li > a{
+        line-height: 40px;
+    }
+    .carousel-inner>.item>img{
+        height: 120px;
+    }
+    .table .borrowTitle,.table .backType{
+        display: none;
+    }
+    .table>tbody>tr>td{
+        padding:8px 3px;
+    }
+}
+//特色部分
+.feature{
+    background: url(../../images/feature01.png) no-repeat 10px 0;
+    height: 80px;
+    margin:20px 0px;
+    padding-left:85px;
+    h4{
+        font-weight:bold;
+    }
+    p{
+        color:@color_gray;
+    }
+}
+.feature:nth-of-type(2){
+    background: url(../../images/feature02.png) no-repeat 10px 0;
+}
+.feature:nth-of-type(3){
+    background: url(../../images/feature03.png) no-repeat 10px 0;
+}
+
+//进行中借款
+.panel{
+    border-radius: 0px; 
+    box-shadow: none;
+}
+//公共头部
+.panel-title{
+    border-bottom:1px solid @color_lightGray;
+}
+.panel-title .pull-left{
+    font-size:24px;
+    color:@color_moreDarkBlue;
+    font-weight:bold;
+    border-bottom:3px solid @color_moreDarkBlue;
+}
+.panel-title .pull-right a{
+    font-size:14px;
+    position:relative;
+    bottom:-10px;
+    margin-right:20px;
+}
+//表格部分
+.table>tbody>tr>td{
+    vertical-align:middle;
+}
+.table>thead>tr>th{
+    color:@color_gray;
+    padding-top:20px;
+}
+.panel>.table:last-child>tbody:last-child>tr:last-child{
+    border-bottom:none;
+}
+
+.el-table tbody tr td{
+    font-size:16px;
+}
+
+//内容列表部分
+.panel-body{
+    margin-bottom:30px;
+    li{
+        clear:both;
+        height:40px;
+        line-height: 40px;
+        border-bottom:1px dashed @color_lightGray;
+    }
+    li:first-child{
+        margin-top:15px;
+    }
+}
+@import url("footer.less");
